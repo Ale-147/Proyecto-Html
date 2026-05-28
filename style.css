@@ -1,19 +1,10 @@
 #contenedor{
-
-    color: rgb(24, 81, 146);
-    text-align: center;
-}
-
-#contenedor2{
-    width: 100px;
-    height: 10%;
-    background-color: blue;
-    border-radius: 100px;
-}
-
-#contenedor3{
-    width: 10px;
-    height: 100%;
-    background-color: black;
-    border-radius: 100px
-}
+    width: 70%;
+    height: 50%;
+    background-color: red;
+    position: absolute; 
+    left: 250px;
+    right: 250px;
+    top: 130px;
+    bottom: -60px;
+} 
