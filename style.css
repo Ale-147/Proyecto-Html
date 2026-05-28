@@ -1,10 +1,35 @@
-#contenedor{
-    width: 70%;
-    height: 50%;
-    background-color: red;
-    position: absolute; 
-    left: 250px;
-    right: 250px;
-    top: 130px;
-    bottom: -60px;
-} 
+
+#menu{
+    height:86px;
+    width:100%;
+    background-color:rgb(34, 103, 17);
+    position:absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+}
+#subm{
+    height:86px;
+    width:100%;
+    background-color:rgb(103, 17, 54);
+    margin:auto;
+    top:86px;
+    left:0;
+    position:absolute;
+}
+#image{
+    width:100%;
+    height:578px;
+    position:absolute;
+    margin:auto;
+    top:172px;
+    left:0;
+    display:flex;
+}
+img{
+    width:90%;
+    height:100%;
+    margin:auto;
+    right:100px;
+}
