@@ -1,19 +1,47 @@
-#contenedor{
-
-    color: rgb(24, 81, 146);
+#contenedor11{
+    color: rgb(25, 26, 27);
     text-align: center;
 }
 
-#contenedor2{
-    width: 100px;
-    height: 10%;
-    background-color: blue;
-    border-radius: 100px;
+#contenedor22{
+    width: 25%;
+    height: 50%;
+    
+    position: absolute;
+    left: 7%;
+    right: 20px;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px solid black;    
 }
 
-#contenedor3{
-    width: 10px;
-    height: 100%;
+#contenedor33{
+    width: 25%;
+    height: 50%;
     background-color: black;
-    border-radius: 100px
+    position: absolute;
+    left: 590px;
+    right: 30%;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px;
+}
+
+#contenedor44{
+    width: 25%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    left: 70%;
+    right: 500px;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px;
+
 }
