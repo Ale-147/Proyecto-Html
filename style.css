@@ -1,0 +1,10 @@
+#contenedor{
+    width: 70%;
+    height: 50%;
+    background-color: red;
+    position: absolute; 
+    left: 250px;
+    right: 250px;
+    top: 130px;
+    bottom: -60px;
+} 
