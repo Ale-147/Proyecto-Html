@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #menu{
     height:86px;
@@ -32,4 +33,52 @@ img{
     height:100%;
     margin:auto;
     right:100px;
+=======
+#contenedor11{
+    color: rgb(25, 26, 27);
+    text-align: center;
+}
+
+#contenedor22{
+    width: 25%;
+    height: 50%;
+    
+    position: absolute;
+    left: 7%;
+    right: 20px;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px solid black;    
+}
+
+#contenedor33{
+    width: 25%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    left: 590px;
+    right: 30%;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px;
+}
+
+#contenedor44{
+    width: 25%;
+    height: 50%;
+    background-color: red;
+    position: absolute;
+    left: 70%;
+    right: 500px;
+    top: 30%;
+    bottom: 50%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 10px;
+
+>>>>>>> Yuli
 }
