@@ -12,6 +12,10 @@
 #subm{
     height:86px;
     width:100%;
+    background-color:rgb(103, 17, 54);
+    margin:auto;
+    top:86px;
+    left:0;
     background-color:rgb(255, 255, 255);
     margin:auto;
     top:86px;
@@ -36,20 +40,47 @@
 #image{
     width:100%;
     height:578px;
-    margin:auto;
     top:172px;
     left:0;
     display:flex;
     overflow:hidden;
+    background-color:#F2F2F2;
+}
+#cont-img{
+    margin-left:400px;
 }
 img{
     width:100%;
-    height:150%;
+    height:135%;
     margin:auto;
-    right:100px;
 }
-
-
+#button-home1{
+    width:14%;
+    height:10%;
+    background-color:rgb(34, 103, 17);
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+    border-top-left-radius:24px;
+    border-bottom-right-radius:24px;
+    position:absolute;
+    top:660px;
+    left:70px;
+}
+#flecha{
+    width: 6%;
+    height: 10%;
+    background-color: rgb(34, 103, 17);
+    color: white;
+    position:absolute;
+    top:660px;
+    left:300px;
+    border-top-left-radius:24px;
+    border-bottom-right-radius:24px;
+}
+h3{
+    padding-top: 3px;
+}
 
 /* Estilos de yuli */
 
@@ -74,10 +105,48 @@ img{
     border: 2px solid black;
 }
 
+.img-servicios{
+    width: 100%;
+    height: 390px;
+}
+
+.card2{
+    width: 95%;
+    height: 390px;
+    border: 2px solid black
+}
+
+.card2 p {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+}
+
+.card2 p:first-child {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #056323;
+    
+}
+
+.card2 p:last-child {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #85d49d;
+    
+}
+
+.card3{
+    width: 95%;
+    height: 390px;
+    border: 2px solid black;
+}
+
 /* Estilos de Samuel */
 #contenedor{
     width: 70%;
-    height: 55%;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -105,11 +174,17 @@ img{
 .bottom{
     width: 35%;
     height: 15%;
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     margin-left: auto;
     margin-right: auto;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     color: white;
     font-family: sans-serif;
+}
+.bottom:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 168, 0);
+    transition: 80ms;
+    cursor: pointer;
 }
