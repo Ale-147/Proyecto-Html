@@ -56,6 +56,44 @@ img{
     border: 2px solid black;
 }
 
+.img-servicios{
+    width: 100%;
+    height: 390px;
+}
+
+.card2{
+    width: 95%;
+    height: 390px;
+    border: 2px solid black
+}
+
+.card2 p {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+}
+
+.card2 p:first-child {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #056323;
+    
+}
+
+.card2 p:last-child {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #85d49d;
+    
+}
+
+.card3{
+    width: 95%;
+    height: 390px;
+    border: 2px solid black;
+}
+
 /* Estilos de Samuel */
 #contenedor{
     width: 70%;
