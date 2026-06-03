@@ -44,8 +44,8 @@
     top:172px;
     left:0;
     display:flex;
+    overflow:hidden;
 }
-
 
 img{
     width:100%;
