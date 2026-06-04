@@ -37,6 +37,10 @@
     font-size: 27px;
     cursor:pointer;
 }
+#buttons li:hover{
+    color:rgb(0, 168, 0);
+    transition: 80ms;
+}
 #image{
     width:100%;
     height:578px;
@@ -48,6 +52,7 @@
 }
 #cont-img{
     margin-left:400px;
+    margin-left:25%;
 }
 img{
     width:100%;
@@ -66,6 +71,11 @@ img{
     position:absolute;
     top:660px;
     left:70px;
+    cursor:pointer;
+}
+#button-home1:hover{
+    background-color:rgb(0, 168, 0);
+    transition: 80ms;
 }
 #flecha{
     width: 6%;
@@ -73,6 +83,10 @@ img{
     background-color: rgb(34, 103, 17);
     color: white;
     position:absolute;
+    text-align: center;
+    font-family: sans-serif;
+    position:absolute;
+    font-size: 20px;
     top:660px;
     left:300px;
     border-top-left-radius:24px;
@@ -80,6 +94,52 @@ img{
 }
 h3{
     padding-top: 3px;
+}
+#flecha:hover{
+    background-color:rgb(0, 168, 0);
+    transition: 80ms;
+    cursor: pointer;
+}
+h3{
+    padding-top: 3px;
+}
+#text1{
+    position:absolute;
+    top:240px;
+    font-family: sans-serif;
+    left:69px;
+}
+#text2{
+    position:absolute;
+    top:340px;
+    font-family: sans-serif;
+    left:69px;
+}
+#text3{
+    position:absolute;
+    top:420px;
+    font-family: sans-serif;
+    left:69px;
+    width: 24%;
+}
+h4{
+    font-size:56px;
+    color:rgb(34, 103, 17);
+}
+h5{
+    font-size:30px;
+    color:rgb(34, 103, 17);
+}
+h6{
+    font-size: 18px;
+    color:rgb(34, 103, 17);
+}
+hr{
+    border: 1.7px solid rgb(34, 103, 17);
+    position:absolute;
+    width:24%;
+    top:435px;
+    left:69px;
 }
 
 /* Estilos de yuli */
@@ -97,7 +157,7 @@ h3{
     width: 90%;
     height: 400px;
     display: grid;
-    grid-template-columns: 34% 34% 34%;
+    grid-template-columns: 34% 34% 34%;     /*imagen del perro caliente*/
     margin: auto;
     left:0;
     right:0;
@@ -105,7 +165,63 @@ h3{
 
 .card1{
     width: 95%;
+    height: 390px;                  /*bordes de los tres cuadros y tamaños*/
+    border: 2px solid black;
+}
+
+.img-servicios{
+    width: 100%;    /* modificar el tamaño de ambas imagenes*/
     height: 390px;
+}
+
+.card2{
+    width: 95%;
+    height: 390px;                  /* es donde va el texto del cuadro del medio*/
+    border: 2px solid black
+}
+
+.card2 p {
+    padding: 15px;
+    font-family:sans-serif;
+    color: #056323;
+    font-size: 20px;
+}
+
+.card2 p:first-child {
+    padding: 15px;
+    font-family: fantasy;
+    color: #056323;
+    
+}
+
+.card2 p :last-child {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #145d2a;
+    
+}
+
+/* Estilo para el botón */
+.btn-leer-mas {
+    padding: 10px 23px;
+    background-color: rgb(0, 128, 0); /* Un color verde atractivo */
+    color: rgb(247, 243, 243);
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+    margin-top: 20%;      /* Empuja el botón hacia abajo */
+    margin-left: 30px;     /* Alineación con el texto */
+ 
+}
+
+.btn-leer-mas:hover {
+    background-color: rgb(0, 168, 0); /* Color más claro al pasar el mouse */
+}
+
+
+.card3{
+    width: 95%;
+    height: 390px;                  /* y aca va la imagen de la hamburguesa*/
     border: 2px solid black;
 }
 
@@ -131,16 +247,12 @@ h3{
     padding: 15px;
     font-family: fantasy;
     color: #056323;
-    
 }
-
 .card2 p :last-child {
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #145d2a;
-    
 }
-
 /* Estilo para el botón */
 .btn-leer-mas {
     padding: 10px 23px;
@@ -273,3 +385,21 @@ h3{
     transition: 80ms;
     cursor: pointer; 
 }
+
+
+/* contenedor ultimo de yuli */
+
+    #contenedor444 {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(0, 85, 0);
+        
+    }
+    
+    .texto19{
+        color: #F2F2F2;
+        text-align: center;
+        padding-top: 10%; /* Ajusta este valor para bajar el texto lo que necesites */
+        font-size: 25px;
+        font-family: sans-serif;
+    }
