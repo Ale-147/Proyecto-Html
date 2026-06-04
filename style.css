@@ -233,3 +233,21 @@ h3{
     transition: 80ms;
     cursor: pointer;
 }
+/* segunda pagina */
+#contenedor-2-s{
+    width: 100%;
+    height: 450px;
+}
+#sandwich{
+    width: 100%;
+    height: 100%;
+}
+#contenido-s{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    background-color: red;
+    z-index: 3px;
+}
