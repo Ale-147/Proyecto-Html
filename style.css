@@ -81,19 +81,45 @@ img{
 h3{
     padding-top: 3px;
 }
-#text{
+#text1{
     position:absolute;
-    border: 2px solid black;
-    top:245px;
+    top:240px;
     font-family: sans-serif;
     left:69px;
 }
+#text2{
+    position:absolute;
+    top:340px;
+    font-family: sans-serif;
+    left:69px;
+}
+#text3{
+    position:absolute;
+    top:420px;
+    font-family: sans-serif;
+    left:69px;
+    width: 24%;
+}
 h4{
     font-size:56px;
+    color:rgb(34, 103, 17);
 }
 h5{
     font-size:30px;
+    color:rgb(34, 103, 17);
 }
+h6{
+    font-size: 18px;
+    color:rgb(34, 103, 17);
+}
+hr{
+    border: 1.7px solid rgb(34, 103, 17);
+    position:absolute;
+    width:24%;
+    top:435px;
+    left:69px;
+}
+
 /* Estilos de yuli */
 
 #contenedor11{
@@ -143,16 +169,12 @@ h5{
     padding: 15px;
     font-family: fantasy;
     color: #056323;
-    
 }
-
 .card2 p :last-child {
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #145d2a;
-    
 }
-
 /* Estilo para el botón */
 .btn-leer-mas {
     padding: 10px 23px;
