@@ -59,9 +59,13 @@ img{
 /* Estilos de yuli */
 
 #contenedor11{
-    color: rgb(25, 26, 27);
+    color: #056323;
     text-align: center;
+    font-size: 150%;
+    
 }
+
+
 
 #contenedor22{
     width: 90%;
@@ -92,24 +96,42 @@ img{
 
 .card2 p {
     padding: 15px;
-    font-family: Arial, sans-serif;
-    color: #333;
-    
+    font-family:sans-serif;
+    color: #056323;
+    font-size: 20px;
 }
 
 .card2 p:first-child {
     padding: 15px;
-    font-family: Arial, sans-serif;
+    font-family: fantasy;
     color: #056323;
     
 }
 
-.card2 p:last-child {
+.card2 p :last-child {
     padding: 15px;
-    font-family: Arial, sans-serif;
-    color: #85d49d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #145d2a;
     
 }
+
+/* Estilo para el botón */
+.btn-leer-mas {
+    padding: 10px 23px;
+    background-color: rgb(0, 128, 0); /* Un color verde atractivo */
+    color: rgb(247, 243, 243);
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+    margin-top: 20%;      /* Empuja el botón hacia abajo */
+    margin-left: 30px;     /* Alineación con el texto */
+ 
+}
+
+.btn-leer-mas:hover {
+    background-color: rgb(0, 168, 0); /* Color más claro al pasar el mouse */
+}
+
 
 .card3{
     width: 95%;
