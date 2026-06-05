@@ -47,6 +47,29 @@
   margin-left: -30px;
   cursor: pointer;
 }
+#logo{
+    align-items: center;
+    width: 250px;
+    margin-left: 46%;
+    margin-top: -100px;
+}
+#icon-logo{
+    width: 175px;
+    height: 175px;
+}
+#register{
+    color: white;
+    font-family: sans-serif;
+    position:absolute;
+    font-size: 20px;
+    top:48px;
+    right:150px;
+    cursor:pointer;
+}
+#register:hover{
+    text-decoration: underline;
+    transition: 80ms;
+}
 #buttons li{
     display: inline;
     padding-right: 2.0em;
@@ -88,7 +111,7 @@ img{
     border-bottom-right-radius:24px;
     position:absolute;
     top:660px;
-    left:70px;
+    left:4.5%;
     cursor:pointer;
 }
 #button-home1:hover{
@@ -106,7 +129,7 @@ img{
     position:absolute;
     font-size: 20px;
     top:660px;
-    left:300px;
+    left:20%;
     border-top-left-radius:24px;
     border-bottom-right-radius:24px;
 }
