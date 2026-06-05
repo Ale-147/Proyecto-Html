@@ -22,12 +22,30 @@
     left:0;
     padding-top:20px;
 }
-#options li{
-    display: inline;
-    font-family: sans-serif;
-    color:rgb(255, 255, 255);
-    font-size: 15px;
-    cursor:pointer;
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 69px;
+  width: 250px;
+}
+.search input{
+  background: transparent;
+  border: none;
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.7);
+  color: #ffffff;
+  padding: 16.5px 25px 5px 0;
+  width: 100%;
+  font-size: 15px;
+  outline: white;
+}
+.search input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+#icon-search {
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  cursor: pointer;
 }
 #buttons li{
     display: inline;
@@ -51,6 +69,7 @@
     background-color:#F2F2F2;
 }
 #cont-img{
+    margin-left:400px;
     margin-left:25%;
 }
 img{
@@ -81,6 +100,7 @@ img{
     height: 10%;
     background-color: rgb(34, 103, 17);
     color: white;
+    position:absolute;
     text-align: center;
     font-family: sans-serif;
     position:absolute;
@@ -89,6 +109,9 @@ img{
     left:300px;
     border-top-left-radius:24px;
     border-bottom-right-radius:24px;
+}
+h3{
+    padding-top: 3px;
 }
 #flecha:hover{
     background-color:rgb(0, 168, 0);
@@ -152,7 +175,7 @@ hr{
     width: 90%;
     height: 400px;
     display: grid;
-    grid-template-columns: 34% 34% 34%;
+    grid-template-columns: 34% 34% 34%;     /*imagen del perro caliente*/
     margin: auto;
     left:0;
     right:0;
@@ -160,7 +183,63 @@ hr{
 
 .card1{
     width: 95%;
+    height: 390px;                  /*bordes de los tres cuadros y tamaños*/
+    border: 2px solid black;
+}
+
+.img-servicios{
+    width: 100%;    /* modificar el tamaño de ambas imagenes*/
     height: 390px;
+}
+
+.card2{
+    width: 95%;
+    height: 390px;                  /* es donde va el texto del cuadro del medio*/
+    border: 2px solid black
+}
+
+.card2 p {
+    padding: 15px;
+    font-family:sans-serif;
+    color: #056323;
+    font-size: 20px;
+}
+
+.card2 p:first-child {
+    padding: 15px;
+    font-family: fantasy;
+    color: #056323;
+    
+}
+
+.card2 p :last-child {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #145d2a;
+    
+}
+
+/* Estilo para el botón */
+.btn-leer-mas {
+    padding: 10px 23px;
+    background-color: rgb(0, 128, 0); /* Un color verde atractivo */
+    color: rgb(247, 243, 243);
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px;
+    margin-top: 20%;      /* Empuja el botón hacia abajo */
+    margin-left: 30px;     /* Alineación con el texto */
+ 
+}
+
+.btn-leer-mas:hover {
+    background-color: rgb(0, 168, 0); /* Color más claro al pasar el mouse */
+}
+
+
+.card3{
+    width: 95%;
+    height: 390px;                  /* y aca va la imagen de la hamburguesa*/
     border: 2px solid black;
 }
 
@@ -284,3 +363,61 @@ hr{
     transition: 80ms;
     cursor: pointer;
 }
+/* segunda pagina */
+#contenedor-2-s{
+    width: 100%;
+    height: 480px;
+    background-image: url(img/sandwich.jpeg);
+    background-size: cover;
+}
+#sandwich{
+    width: 100%;
+    height: 100%;
+}
+#contenido-s{
+    width: 850px;
+    height: 300px;
+    color: green;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+}
+#bottom-s{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(0, 85, 0);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+#bottom-s:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 128, 0);
+    transition: 80ms;
+    cursor: pointer; 
+}
+
+
+/* contenedor ultimo de yuli */
+
+    #contenedor444 {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(0, 85, 0);
+        
+    }
+    
+    .texto19{
+        color: #F2F2F2;
+        text-align: center;
+        padding-top: 10%; /* Ajusta este valor para bajar el texto lo que necesites */
+        font-size: 25px;
+        font-family: sans-serif;
+    }
