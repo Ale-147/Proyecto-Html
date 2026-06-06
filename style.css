@@ -381,6 +381,74 @@ hr{
     transition: 80ms;
     cursor: pointer; 
 }
+/* cotenedor donde esta el video */
+#contenedor-3-s{
+    width: 100%;
+    height: 410px;
+    display: grid;
+    grid-template-columns: 13% 52%;
+    gap: 410px;
+    padding: 30px;
+    padding-left: 45px;
+}
+#content-v{
+    height: 130px;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    padding: 15px;
+}
+#contendor-vd{
+  width: 480px;
+  height: 380px;
+  background-color: red;
+}
+#content-text{
+    height: 380px;
+    color: green;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#btn{
+    width: 45%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 55% 25%;
+    gap: 15px;
+
+}
+#btn-iz{
+    height: 100%;
+    background-color:  rgb(0, 85, 0);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-iz:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 128, 0);
+    transition: 80ms;
+    cursor: pointer; 
+}
+#btn-der{
+    height: 100%;
+    background-color:  rgb(0, 85, 0);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-der:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 128, 0);
+    transition: 80ms;
+    cursor: pointer; 
+}
+
 
 
 /* contenedor ultimo de yuli */
