@@ -247,7 +247,7 @@ h3{
     .texto19 {
         color: #F2F2F2;
         text-align: center;
-        padding-top: 10%; /* Ajusta este valor para bajar el texto lo que necesites */
+        padding-top: 10px; /* Ajusta este valor para bajar el texto lo que necesites */
         font-size: 25px;
         font-family: sans-serif;
     }
