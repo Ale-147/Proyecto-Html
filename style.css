@@ -739,8 +739,8 @@ input[type="radio"]{
     gap: 20px;
 }
 .tarj-pg{
-    height: 75%;
-    padding-top: 50px;
+    height: 70%;
+    padding-top: 55px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
