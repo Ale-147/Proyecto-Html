@@ -212,31 +212,6 @@ hr{
 }
 
 /* Estilos de yuli */
-
-#contenedor11{
-    color: #056323;
-    text-align: center;
-    font-size: 150%;
-    
-}
-
-#servi{
-    grid-area: 1 / 1;
-    font-family: sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    color: rgba(89, 89, 89, 0.148);
-}
-#servicios12{
-    grid-area: 1 / 1;
-    font-family: sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: green;
-    
-    
-    
-}
 #texto00{
     margin-left: auto;
     margin-right: auto;
@@ -247,10 +222,6 @@ hr{
     font-family: sans-serif;
     color: green;
 }
-    
-
-
-
 #contenedor22{
     width: 90%;
     height: 400px;
