@@ -7,6 +7,8 @@
     width:100%;
     background-color:rgb(34, 103, 17);
     margin:auto;
+    position:sticky;
+    z-index: 1000;
     top:0;
     left:0;
     right:0;
@@ -17,6 +19,8 @@
     width:100%;
     background-color:rgb(103, 17, 54);
     margin:auto;
+    position:sticky;
+    z-index: 100;
     top:86px;
     left:0;
     background-color:rgb(255, 255, 255);
