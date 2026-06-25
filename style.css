@@ -1,4 +1,7 @@
 /* Estilos de Juan Pablo */
+
+
+
 #menu{
     height:86px;
     width:100%;
@@ -12,6 +15,7 @@
 #subm{
     height:86px;
     width:100%;
+    background-color:rgb(103, 17, 54);
     margin:auto;
     top:86px;
     left:0;
@@ -211,31 +215,6 @@ hr{
 }
 
 /* Estilos de yuli */
-
-#contenedor11{
-    color: #056323;
-    text-align: center;
-    font-size: 150%;
-    
-}
-
-#servi{
-    grid-area: 1 / 1;
-    font-family: sans-serif;
-    font-size: 4rem;
-    font-weight: bold;
-    color: rgba(89, 89, 89, 0.148);
-}
-#servicios12{
-    grid-area: 1 / 1;
-    font-family: sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: green;
-    
-    
-    
-}
 #texto00{
     margin-left: auto;
     margin-right: auto;
@@ -246,10 +225,6 @@ hr{
     font-family: sans-serif;
     color: green;
 }
-    
-
-
-
 #contenedor22{
     width: 90%;
     height: 400px;
@@ -740,21 +715,21 @@ font-weight: bold;
 
 
 /* texto nosotros */
-#content-nos{
+.content-nos{
     margin-left: auto;
     margin-right: auto;
     height: 80px;
     display: grid;
     place-items: center;
 }
-#text-gr{
+.text-gr{
     grid-area: 1 / 1;
     font-family: sans-serif;
     font-size: 4rem;
     font-weight: bold;
     color: rgba(89, 89, 89, 0.148);
 }
-#text-pq{
+.text-pq{
     grid-area: 1 / 1;
     font-family: sans-serif;
     font-size: 2rem;
@@ -915,8 +890,205 @@ font-weight: bold;
     transition: 80ms;
     cursor: pointer; 
 }
-
-
+/* complemento */
+#content-s-23{
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#menu-s{
+    height: 600px;
+    padding: 20px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#menu-s header{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    place-items: center;
+    border-bottom: 3px solid green;
+    color: green;
+}
+#body-btn{
+    padding-top: 10px;
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10%;
+    row-gap: 40px;
+}
+.btn-menu-s{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    place-content: center;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+}
+.btn-menu-s:hover{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(205, 204, 204);
+    transition: 60ms;
+}
+#section-s{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 270px 270px;
+    gap: 30px;
+    row-gap: 50px;
+    padding: 30px;
+}
+.card-s{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+.card-s:hover{
+    cursor: pointer;
+    transition: 400ms;
+    transform: scale(1.1);
+}
+.produc-s{
+    padding: 5px;
+    width: 100%;
+    height: 15%;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: green;
+}
+.fot-s{
+    padding: 5px;
+    width: 100%;
+    height: 65%;
+}
+.img-produc{
+    width: 96%;
+    height: 100%;
+}
+.comp-s{
+    width: 100%;
+    height: 12%;
+    font-family: sans-serif;
+    place-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(0, 85, 0);
+    color: white;
+}
+.comp-s:hover{
+    background-color:  rgb(0, 128, 0);
+}
+input[type="radio"]{
+    display: none;
+}
+#filtro-inicio:checked ~ #content-s-23 .perros,
+#filtro-inicio:checked ~ #content-s-23 .sandwiches,
+#filtro-inicio:checked ~ #content-s-23 .hamburguesas {
+  display: none ;
+}
+#filtro-hamburguesas:checked ~ #content-s-23 .perros,
+#filtro-hamburguesas:checked ~ #content-s-23 .sandwiches,
+#filtro-hamburguesas:checked ~ #content-s-23 .inicio {
+  display: none ;
+}
+#filtro-perros:checked ~ #content-s-23 .hamburguesas,
+#filtro-perros:checked ~ #content-s-23 .sandwiches,
+#filtro-perros:checked ~ #content-s-23 .inicio {
+  display: none ;
+}
+#filtro-sandwiches:checked ~ #content-s-23 .hamburguesas,
+#filtro-sandwiches:checked ~ #content-s-23 .perros,
+#filtro-sandwiches:checked ~ #content-s-23 .inicio {
+  display: none ;
+}
+/* contenedor de ranking */
+#content-rmn{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: green;
+}
+#content-bac-s{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 340px;
+    display: flex;
+    gap: 25px;
+}
+.content-base{
+    padding-top: 23px;
+    width: 30%;
+    height: 300px;
+    color: rgb(110, 110, 110);
+}
+.prim-ps{
+    padding-top: 1px;
+    width: 37%;
+    height: 340px;
+    color: gold;
+}
+.fot-pr{
+    margin-top: 23px;
+    width: 100%;
+    height: 250px;
+}
+.fot-pr:hover{
+    transition: 600ms;
+    transform: translateY(-10px);
+}
+#rank-fot{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#bronce{
+    color: #CD7F32;
+}
+/* metodo de pago */
+#metodo-pg{
+    width: 100%;
+    height: 400px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    color: green;
+    background-color: rgb(249, 249, 249);
+}
+#metodo-pg footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 20px;
+}
+.tarj-pg{
+    height: 70%;
+    padding-top: 55px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(219, 219, 219) ;
+}
+.img-pg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+}
+#icono-pg{
+    width: 100%;
+    height: 100%;
+}
 
 /* contenedor ultimo de yuli */
 
